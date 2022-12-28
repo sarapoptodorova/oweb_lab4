@@ -1,0 +1,36 @@
+table {
+    /*border-collapse: collapse;*/
+    width: 100%;
+    background-color: #f4ebe2;
+    border:solid #070200;
+  }
+  
+  td, th {
+    /*border: 1px solid #e4d3c9;*/
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    border:solid #070200;
+    background-color: #746461;
+  }
+  td{
+    border:1px solid #070200;
+  }
+  tr:nth-child(even) {
+    background-color: #e4d3c9;
+  }
+  body {
+    background-image:url(poz1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-family: 'Spectral', serif;
+    position: relative;
+    min-height:100vh;
+    padding-bottom: 100px;
+  }
+  h1{
+    font-weight: bolder;
+    font-size:xx-large;
+  }
